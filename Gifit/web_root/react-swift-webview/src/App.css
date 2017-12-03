@@ -9,6 +9,10 @@
 }
 
 .DropZone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   position: relative;
   flex: 1 1 auto;
   background: #22292C;
