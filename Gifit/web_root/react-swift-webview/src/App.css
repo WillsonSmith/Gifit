@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+
+  padding: 2rem 2rem 4rem 2rem;
+
+  height: 100%;
+}
+
+.DropZone {
+  position: relative;
+  flex: 1 1 auto;
+  background: #22292C;
+  border-radius: 3px;
+
+  color: #fff;
+
+  font-size: 2rem;
+
+  margin-top: 4rem;
+}
+
+.DropZone:after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  bottom: -1rem;
+  left: -1rem;
+  border: 3px dashed #34495e;
+  border-radius: 3px;
+
+  pointer-events: none;
+}
+
+
+.PreferenceInputs {
+  display: grid;
+  display: flex;
+  justify-content: center;
+
+  font-size: 2rem;
+}
+
+.PreferenceInputs label + label {
+  margin-left: 2rem;
+}
+
+.DropText {
+  text-align: center;
+  margin-top: 2.4rem;
+}
