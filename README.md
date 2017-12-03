@@ -1,6 +1,5 @@
 # Gifit
-
-## WIP
+Built on top of [react-swift-webview](https://github.com/WillsonSmith/react-swift-webview)
 
 ## What is this?
 
